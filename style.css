@@ -1,0 +1,126 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light background for better contrast */
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  background-color: #d4a9d6; /* Lighter header for contrast */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Center header elements horizontally */
+  justify-content: space-between; /* Space out logo and navigation */
+}
+
+nav {
+  display: flex; /* Arrange navigation links horizontally */
+}
+
+nav a {
+  padding: 10px 15px;
+  border-radius: 5px; /* Rounded corners for a softer look */
+  color: #333; /* Darker text for better contrast */
+  margin-left: 15px; /* Add some spacing between links */
+}
+
+nav a:hover {
+  background-color: #d08ed1; /* Light hover effect */
+}
+
+/* Hero Section (can be added later) */
+
+/* Main Content */
+main {
+  padding: 50px 0; /* Add some padding for main content */
+}
+
+/* Section Styling (can be applied to individual sections) */
+section {
+  margin-bottom: 50px; /* Spacing between sections */
+  padding: 30px;
+  border-radius: 5px; /* Subtle rounded corners */
+  background-color: #db8514c9; /* White background for better contrast */
+}
+
+h2 {
+  color: #150505; /* Green color for headings */
+  text-align: center; /* Center headings */
+}
+
+p {
+  line-height: 1.5; /* Increased line-height for readability */
+}
+
+/* Menu Section */
+#menu {
+  display: flex; /* Arrange menu items horizontally */
+  flex-wrap: wrap; /* Wrap menu items for responsiveness */
+  justify-content: space-between; /* Space items evenly */
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  width: calc(33% - 20px); /* 33% width per item with some margin */
+  margin-bottom: 20px;
+  border: none; /* Remove border for cleaner look */
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center; /* Center text within menu item */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #b4dadd; /* White background for better contrast */
+}
+
+.menu-item h3 {
+  margin-bottom: 5px;
+  color: #4CAF50; /* Green color for titles */
+}
+
+.menu-item p {
+  color: #ff07079a; /* Lighter text for descriptions */
+}
+
+.menu-item .price {
+  font-weight: bold;
+  color: #333; /* Darker text for price */
+}
+
+.menu-item button {
+  background-color: #4CAF50; /* Green button color */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.menu-item button:hover {
+  background-color: #3e8e41; /* Darker green hover effect */
+}
+
+/* Cart Link */
+#cart-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #4CAF50; /* Green color for cart link */
+}
+
+#cart-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
